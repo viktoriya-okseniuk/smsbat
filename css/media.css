@@ -1,0 +1,904 @@
+@media (max-width: 1700px) {
+  .header.home-header .header-actions {
+    margin-right: 300px;
+  }
+  .service-domain .domain-content {
+    justify-content: flex-end;
+  }
+}
+@media (max-width: 1400px) {
+  .header.home-header .header-actions {
+    margin-right: 200px;
+  }
+  .header-content {
+    gap: 50px;
+  }
+  .container {
+    padding: 0 20px;
+  }
+  .main-banner {
+    padding: 0 20px;
+  }
+  .main-banner .banner-text {
+    margin-left: initial;
+  }
+  .main-banner .banner-title {
+    font-size: 50px;
+    line-height: 56px;
+  }
+  .main-banner .banner-img {
+    width: 500px;
+  }
+  .main-banner .banner-img-phone {
+    right: 150px;
+    height: 500px;
+    width: 260px;
+  }
+  .main-banner .banner-img-phone img {
+    max-width: 100%;
+  }
+  .main-banner .banner-img-man {
+    width: 400px;
+    right: -30px;
+  }
+  .main-banner .banner-img-text-1 {
+    top: 150px;
+    right: 0;
+  }
+  .main-banner .banner-img-text-2 {
+    top: 300px;
+    right: 90px;
+  }
+  .main-banner .banner-img-text-3 {
+    bottom: 100px;
+    right: 30px;
+  }
+  .description-section .mail-bg-img,
+  .description-section .phone-bg-img {
+    display: none;
+  }
+  .partners-section .partners-list {
+    justify-content: center;
+  }
+  .callback-section-main {
+    margin-right: initial;
+    padding: 0 20px;
+  }
+  .footer-top-content {
+    gap: 80px;
+  }
+  .service-types .mail-bg-img,
+  .service-types .phone-bg-img {
+    display: none;
+  }
+  .service-types .types-img {
+    max-width: 500px;
+  }
+  .service-hosting .hosting-img {
+    max-width: 250px;
+  }
+  .service-domain .domain-img {
+    max-width: 250px;
+  }
+  .blog-section .mail-bg-img {
+    display: none;
+  }
+  .tech-section .mail-bg-img {
+    display: none;
+  }
+  .page-tabs .tabs-content {
+    padding-left: 30px;
+  }
+  .contacts-description .mail-bg-img {
+    display: none;
+  }
+}
+@media (max-width: 1170px) {
+  .header-content {
+    gap: 30px;
+  }
+  .header-logo {
+    max-width: 150px;
+  }
+  .main-nav {
+    gap: 20px;
+  }
+  .main-banner .banner-text {
+    max-width: 500px;
+  }
+  .main-banner .banner-title {
+    margin-bottom: 25px;
+    font-size: 40px;
+    line-height: 48px;
+  }
+  .main-banner .banner-description {
+    margin-bottom: 40px;
+  }
+  .main-banner .banner-action .button {
+    width: 195px;
+  }
+  .page-section .section-head {
+    margin-bottom: 40px;
+  }
+  .page-section .section-head-title {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  .price-section .dollar-bg-img {
+    right: 0;
+  }
+  .partners-section .partners-list {
+    gap: 30px;
+  }
+  .faq-list .faq-item {
+    font-size: 16px;
+  }
+  .footer-top-content {
+    gap: 40px;
+  }
+  .page-title {
+    margin-top: 50px;
+    font-size: 46px;
+    line-height: 50px;
+  }
+  .service-types .types-img {
+    left: -100px;
+    top: 100px;
+    max-width: 450px;
+  }
+  .service-advantages .advantages-list {
+    gap: 70px;
+  }
+  .service-hosting .hosting-img {
+    max-width: 200px;
+  }
+  .service-hosting .price-label {
+    font-size: 120px;
+    line-height: 164px;
+  }
+  .service-domain .domain-img {
+    top: 0;
+    max-width: 200px;
+  }
+  .service-domain .price-label {
+    margin: 0;
+    font-size: 120px;
+    line-height: initial;
+  }
+  .article-head-content {
+    gap: 50px;
+  }
+  .article-head .article-img {
+    width: 50%;
+  }
+  .contacts-section .contacts-img {
+    top: 0;
+    width: 200px;
+  }
+  .contacts-section .contacts-content {
+    gap: 50px;
+  }
+}
+@media (max-width: 992px) {
+  .header.home-header .header-actions {
+    margin-right: 0;
+  }
+  .header.home-header .add-nav {
+    position: static;
+    padding: 0;
+    flex-direction: row;
+    align-items: center;
+    opacity: 1;
+    visibility: visible;
+    box-shadow: none;
+  }
+  .header.home-header .add-nav .nav-link {
+    padding: 0 9px;
+    border-left: 1px solid rgba(89, 88, 90, 0.38);
+  }
+  .header-add-nav .action-button {
+    display: none;
+  }
+  .header .menu-button {
+    display: block;
+  }
+  .header-content {
+    position: relative;
+    flex-wrap: wrap;
+    gap: 0;
+  }
+  .header-main {
+    position: relative;
+    top: 50px;
+    flex: initial;
+    flex-direction: column;
+    gap: 40px;
+    height: 0;
+    width: 100%;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: 0.2s ease;
+  }
+  .header-main.open {
+    margin-bottom: 50px;
+    height: auto;
+    transform: scaleY(1);
+  }
+  .main-banner {
+    margin-top: 0;
+  }
+  .main-banner-content {
+    min-height: 700px;
+  }
+  .main-banner .banner-text {
+    margin-top: 50px;
+    align-self: flex-start;
+  }
+  .main-banner .banner-img {
+    height: 700px;
+    background-position: 135px 0;
+  }
+  .main-banner .banner-img-phone {
+    right: 140px;
+    height: auto;
+    width: 180px;
+  }
+  .main-banner .banner-img-man {
+    width: 300px;
+    right: -10px;
+    bottom: 100px;
+  }
+  .main-banner .banner-img-text {
+    padding: 20px;
+  }
+  .main-banner .banner-img-text-1 {
+    top: 160px;
+    right: 5px;
+  }
+  .main-banner .banner-img-text-2 {
+    padding: 20px;
+    top: 260px;
+    right: 45px;
+  }
+  .main-banner .banner-img-text-3 {
+    bottom: 55px;
+    right: 5px;
+  }
+  .about-section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .about-section .about-item-text {
+    padding: 40px;
+  }
+  .price-section .dollar-bg-img,
+  .price-section .wallet-bg-img {
+    display: none;
+  }
+  .price-section .price-item-value {
+    font-size: 20px;
+  }
+  .footer-top-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footer-nav {
+    flex-wrap: wrap;
+    gap: 30px 0;
+  }
+  .footer-nav-col {
+    padding-right: 20px;
+    width: 33.33%;
+  }
+  .page-title {
+    margin-top: 40px;
+    font-size: 40px;
+    line-height: 46px;
+  }
+  .service-types .types-img {
+    display: none;
+  }
+  .service-advantages .advantages-title {
+    margin-bottom: 40px;
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .service-advantages .advantages-list {
+    gap: 50px;
+  }
+  .service-hint {
+    padding: 40px;
+  }
+  .service-hosting .service-price {
+    justify-content: center;
+    position: relative;
+    margin-top: 120px;
+  }
+  .service-hosting .hosting-content {
+    justify-content: center;
+  }
+  .service-hosting .price-label {
+    position: absolute;
+    top: -90px;
+  }
+  .service-hosting .price-list {
+    position: relative;
+  }
+  .service-hosting .hosting-img {
+    display: none;
+  }
+  .service-domain .domain-content {
+    justify-content: center;
+  }
+  .service-domain .domain-img {
+    display: none;
+  }
+  .blog-list {
+    gap: 22px;
+  }
+  .blog-article .article-content {
+    gap: 40px;
+  }
+  .blog-article .article-img {
+    width: 40%;
+  }
+  .article-head-content {
+    gap: 30px;
+  }
+  .article-head .article-img {
+    width: 40%;
+  }
+  .article-head .article-title {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .page-tabs .tabs-nav {
+    width: 250px;
+  }
+  .page-tabs .tab-link {
+    padding: 20px;
+  }
+  .contacts-section .contacts-img {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .header {
+    padding: 32px 0;
+  }
+  .header .search-box {
+    left: 0;
+    right: initial;
+  }
+  .header-lang .lang-list {
+    left: 0;
+    right: initial;
+  }
+  .main-banner {
+    margin-bottom: 20px;
+  }
+  .main-banner-content {
+    display: block;
+    min-height: initial;
+  }
+  .main-banner .banner-text {
+    margin-top: 40px;
+  }
+  .main-banner .banner-title {
+    margin-bottom: 30px;
+    max-width: 90%;
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .main-banner .banner-description {
+    margin-bottom: 30px;
+    max-width: 80%;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .main-banner .banner-action {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  .main-banner .banner-img {
+    position: relative;
+    margin-top: -45px;
+    margin-left: auto;
+    margin-right: -20px;
+    width: 363px;
+    height: 544px;
+    background-image: url(../images/banner-bg-mob.png);
+    background-position: initial;
+    background-size: cover;
+  }
+  .main-banner .banner-img-phone {
+    right: 160px;
+    bottom: 10px;
+    width: 180px;
+  }
+  .main-banner .banner-img-man {
+    right: -15px;
+    bottom: 50px;
+    width: 350px;
+  }
+  .main-banner .banner-img-text {
+    padding: 17px;
+    width: 150px;
+    font-size: 11px;
+    line-height: 15px;
+    border-radius: 10px;
+  }
+  .main-banner .banner-img-text:after {
+    left: 17px;
+    bottom: -12px;
+    width: 35px;
+    height: 19px;
+    background-size: contain;
+  }
+  .main-banner .banner-img-text-1 {
+    top: 75px;
+    right: 25px;
+  }
+  .main-banner .banner-img-text-2 {
+    padding: 12px;
+    top: 160px;
+    right: 100px;
+  }
+  .main-banner .banner-img-text-3 {
+    bottom: 25px;
+    right: 55px;
+  }
+  .page-section {
+    padding: 20px 0;
+  }
+  .page-section .section-head {
+    margin-bottom: 30px;
+  }
+  .page-section .section-head-title {
+    padding-bottom: 5px;
+    font-size: 24px;
+    line-height: 33px;
+  }
+  .page-section .section-head-title:after {
+    width: 50px;
+    height: 2px;
+  }
+  .highlight-name {
+    font-size: 16px;
+  }
+  .text-content {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .about-section .about-item {
+    flex-direction: column-reverse;
+    align-items: flex-end;
+  }
+  .about-section .about-item:nth-child(2) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .about-section .about-item-text {
+    padding: 30px;
+    font-size: 14px;
+    line-height: 19px;
+    min-width: initial;
+    text-align: center;
+  }
+  .about-section .about-item-img {
+    display: flex;
+    justify-content: flex-end;
+    width: 70%;
+  }
+  .price-section .price-list {
+    padding-bottom: 15px;
+    gap: 30px;
+    width: 100%;
+  }
+  .price-section .price-list:after,
+  .price-section .price-list:before {
+    border-width: 1px;
+  }
+  .price-section .price-list:before {
+    left: 26px;
+  }
+  .price-section .price-list:after {
+    right: 26px;
+  }
+  .price-section .price-item {
+    width: 100%;
+  }
+  .price-section .price-item-label,
+  .price-section .price-item-value {
+    width: 100%;
+    height: 42px;
+  }
+  .price-section .price-item-label {
+    font-size: 11px;
+    border-radius: 12px 0 0 12px;
+  }
+  .price-section .price-item-value {
+    font-size: 14px;
+    border-radius: 0 12px 12px 0;
+  }
+  .partners-section .partner-item {
+    max-width: 45%;
+  }
+  .faq-list .faq-item {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .faq-list .item-head {
+    gap: 18px;
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+  .faq-list .item-head-icon {
+    align-self: flex-start;
+    margin-top: 10px;
+    width: 13px;
+    height: 9px;
+  }
+  .faq-list .item-content {
+    padding: 10px 20px;
+  }
+  .callback-section {
+    position: relative;
+  }
+  .callback-section-img {
+    position: absolute;
+    top: 80px;
+    margin: 0;
+    width: 200px;
+  }
+  .callback-section .text-content {
+    margin-left: auto;
+    width: 55%;
+  }
+  .callback-section .callback-form {
+    margin: 40px auto 0;
+    max-width: 400px;
+  }
+  .callback-form .form-main {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  .callback-form .form-item {
+    margin-bottom: 15px;
+  }
+  .callback-form .form-hint {
+    margin-bottom: 16px;
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .callback-form .form-action .button {
+    width: 195px;
+  }
+  .footer {
+    position: relative;
+    margin-top: 40px;
+  }
+  .footer-social {
+    position: absolute;
+    top: 35px;
+    right: 20px;
+  }
+  .footer-nav-col {
+    padding: 0;
+    width: 100%;
+  }
+  .footer-nav-title {
+    margin-bottom: 14px;
+  }
+  .footer-nav-list {
+    gap: 8px;
+  }
+  .footer-bottom {
+    padding: 24px 0 19px 0;
+  }
+  .footer-bottom-content {
+    gap: 7px;
+  }
+  .footer-bottom-nav {
+    gap: 20px;
+  }
+  .footer-copyright {
+    font-size: 10px;
+  }
+  .page-title {
+    margin-top: 30px;
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .service-types .types-content {
+    flex-direction: column;
+    gap: 23px;
+  }
+  .service-list {
+    align-self: center;
+    gap: 23px;
+  }
+  .service-list .service-item {
+    padding: 18px 0;
+    width: 248px;
+    font-size: 16px;
+  }
+  .service-list .service-item:after,
+  .service-list .service-item:before {
+    bottom: -22px;
+    height: 20px;
+    border-width: 1px;
+  }
+  .service-advantages .advantages-title {
+    margin-bottom: 25px;
+    font-size: 30px;
+    line-height: 34px;
+  }
+  .service-advantages .advantages-list {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .service-advantages .item-title {
+    margin-bottom: 15px;
+  }
+  .service-hint {
+    padding: 34px 30px;
+    border-radius: 18px;
+    text-align: center;
+  }
+  .service-hosting .hosting-content {
+    flex-direction: column;
+    gap: 23px;
+  }
+  .service-hosting .price-list {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .service-price .price-item {
+    padding: 18px;
+    width: 198px;
+  }
+  .service-price .price-item-label {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .service-price .price-item-value {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .service-domain .domain-content {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .service-domain .service-list {
+    align-self: center;
+  }
+  .service-domain .service-price {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 60px;
+  }
+  .service-domain .price-label {
+    position: absolute;
+    top: -90px;
+  }
+  .service-domain .price-list {
+    position: relative;
+    z-index: 1;
+  }
+  .blog-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .blog-list .blog-item {
+    border-radius: 10px;
+  }
+  .blog-list .item-img {
+    border-radius: 10px 10px 0 0;
+  }
+  .blog-list .item-info {
+    padding: 10px 14px 19px;
+    border-radius: 0 0 10px 10px;
+  }
+  .blog-list .item-text {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  .blog-list .item-title {
+    font-size: 18px;
+  }
+  .blog-article .article-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+  .blog-article .article-img {
+    width: 100%;
+    max-width: 416px;
+  }
+  .blog-article .article-title {
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+  .blog-article .article-description {
+    margin-bottom: 20px;
+  }
+  .article-head-content {
+    flex-direction: column;
+    gap: 23px;
+  }
+  .article-head .article-img {
+    width: 100%;
+  }
+  .article-head .article-info {
+    padding-top: 0;
+  }
+  .article-content h3 {
+    margin: 25px 0;
+    font-size: 28px;
+  }
+  .page-tabs .tabs {
+    flex-direction: column;
+  }
+  .page-tabs .tabs-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0;
+    width: 100%;
+  }
+  .page-tabs .tabs-nav:after {
+    display: none;
+  }
+  .page-tabs .tab-link {
+    padding: 15px 20px;
+    font-size: 16px;
+  }
+  .contacts-section .contacts-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .contacts-section .contacts-list {
+    margin: 0;
+  }
+  .contacts-section .contact-item {
+    margin-bottom: 10px;
+  }
+  .contacts-section .contact-item-label {
+    font-size: 40px;
+  }
+  .chat-bot {
+    bottom: 30px;
+    right: 30px;
+  }
+  .chat-bot-link {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media (max-width: 480px) {
+  .header-main {
+    gap: 30px;
+  }
+  .header-actions {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .header-add-nav {
+    margin-top: 30px;
+  }
+  .header.home-header .add-nav .nav-link:first-child {
+    border: none;
+  }
+  .add-nav .nav-link:first-child {
+    border: none;
+  }
+  .main-nav {
+    flex-direction: column;
+  }
+  .main-banner .banner-img {
+    width: 263px;
+    height: 446px;
+  }
+  .main-banner .banner-img-phone {
+    right: 103px;
+    width: 145px;
+    height: 295px;
+  }
+  .main-banner .banner-img-man {
+    right: -40px;
+    bottom: 40px;
+    width: 290px;
+  }
+  .main-banner .banner-img-text {
+    padding: 17px 14px;
+    width: 112px;
+    font-size: 8px;
+    line-height: 11px;
+  }
+  .main-banner .banner-img-text-1 {
+    right: 31px;
+    top: 66px;
+  }
+  .main-banner .banner-img-text-2 {
+    right: 63px;
+    top: 136px;
+    padding: 12px 9px;
+  }
+  .main-banner .banner-img-text-3 {
+    right: 20px;
+    bottom: 22px;
+  }
+  .about-section .about-item-img {
+    width: 60%;
+  }
+  .faq-list .faq-item {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .callback-section-img {
+    top: 90px;
+    width: 175px;
+  }
+  .callback-section .text-content {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .callback-section .callback-form {
+    max-width: 250px;
+  }
+  .page-title {
+    margin-top: 14px;
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .service-advantages .advantages-title {
+    margin-bottom: 11px;
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .service-advantages .advantages-list {
+    gap: 16px;
+  }
+  .service-advantages .item-title {
+    margin-bottom: 10px;
+  }
+  .blog-list .item-text {
+    margin-bottom: 4px;
+    font-size: 12px;
+  }
+  .blog-list .item-title {
+    font-size: 16px;
+  }
+  .blog-article .article-content {
+    padding: 8px 0;
+    align-items: center;
+  }
+  .blog-article .article-title {
+    font-size: 16px;
+    line-height: 15px;
+  }
+  .blog-article .article-description {
+    margin-bottom: 0;
+  }
+  .blog-article .article-button {
+    display: none;
+  }
+  .article-head-content {
+    margin-top: 25px;
+  }
+  .article-head .article-title {
+    margin-bottom: 9px;
+    font-size: 30px;
+    line-height: 32px;
+  }
+  .article-content h3 {
+    margin: 23px 0 9px;
+    font-size: 24px;
+  }
+  .article-content p {
+    margin-bottom: 23px;
+  }
+}

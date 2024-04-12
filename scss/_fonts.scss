@@ -1,0 +1,20 @@
+@import 'font-face';
+
+@include font-face(Nunito, '../fonts/Nunito-Regular', 400, normal, ttf);
+@include font-face(Nunito, '../fonts/Nunito-Regular', 400, normal, woff);
+@include font-face(Nunito, '../fonts/Nunito-Regular', 400, normal, woff2);
+@include font-face(Nunito, '../fonts/Nunito-Medium', 500, normal, ttf);
+@include font-face(Nunito, '../fonts/Nunito-Medium', 500, normal, woff);
+@include font-face(Nunito, '../fonts/Nunito-Medium', 500, normal, woff2);
+@include font-face(Nunito, '../fonts/Nunito-SemiBold', 600, normal, ttf);
+@include font-face(Nunito, '../fonts/Nunito-SemiBold', 600, normal, woff);
+@include font-face(Nunito, '../fonts/Nunito-SemiBold', 600, normal, woff2);
+@include font-face(Nunito, '../fonts/Nunito-Bold', 700, normal, ttf);
+@include font-face(Nunito, '../fonts/Nunito-Bold', 700, normal, woff);
+@include font-face(Nunito, '../fonts/Nunito-Bold', 700, normal, woff2);
+@include font-face(Nunito, '../fonts/Nunito-ExtraBold', 800, normal, ttf);
+@include font-face(Nunito, '../fonts/Nunito-ExtraBold', 800, normal, woff);
+@include font-face(Nunito, '../fonts/Nunito-ExtraBold', 800, normal, woff2);
+@include font-face(Nunito, '../fonts/Nunito-Black', 900, normal, ttf);
+@include font-face(Nunito, '../fonts/Nunito-Black', 900, normal, woff);
+@include font-face(Nunito, '../fonts/Nunito-Black', 900, normal, woff2);

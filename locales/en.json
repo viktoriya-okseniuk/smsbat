@@ -1,0 +1,9 @@
+{
+    "mainNav": {
+        "main": "Home",
+        "about": "About",
+        "services": "Services",
+        "blog": "Blog",
+        "contacts": "Contacts"
+    }
+}
