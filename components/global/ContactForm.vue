@@ -32,14 +32,6 @@
           </div>
           <div class="callback-form">
             <div class="form-main">
-              <div class="form-item">
-                <input
-                  v-model="form.name"
-                  type="text"
-                  class="textbox"
-                  placeholder="Ім’я та прізвище"
-                />
-              </div>
               <div
                 class="form-item"
                 :class="{ error: v$.phone.$errors.length }"
@@ -57,15 +49,6 @@
                 >
                   <div class="error-msg">{{ error.$message }}</div>
                 </div>
-              </div>
-              <div class="form-item">
-                <input
-                  v-model="form.company"
-                  type="text"
-                  class="textbox"
-                  placeholder="Назва компанії"
-                  name="company"
-                />
               </div>
               <div class="form-item">
                 <input
@@ -118,9 +101,7 @@ const toast = useToast();
 const formRef = ref();
 
 const form = reactive({
-  name: "",
   phone: "",
-  company: "",
   email: "",
   text: "",
 });
@@ -131,8 +112,6 @@ const phoneValidator = (value: string) =>
   );
 
 const rules = {
-  name: {},
-
   phone: {
     required: helpers.withMessage(() => "Це поле обов'язкове", required),
     phoneValidator: helpers.withMessage(
@@ -140,7 +119,6 @@ const rules = {
       phoneValidator
     ),
   },
-  company: {},
   email: { email },
   text: {
     required: helpers.withMessage(() => "Це поле обов'язкове", required),

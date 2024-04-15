@@ -10,7 +10,9 @@
             Ми подбали про ваш час та зібрали усе необхідне в єдину мережу
           </div>
           <div class="banner-action">
-            <button class="button filled">Детальніше</button>
+            <NuxtLink :to="localePath('/viber-business-messages')" class="nav-link button filled">
+              <p>Детальніше</p>
+            </NuxtLink>
             <a href="viber://chat?service=26076"class="button outlined">Перейти у чат</a>
           </div>
         </div>
@@ -332,3 +334,7 @@
     <ContactForm/>
   </div>
 </template>
+
+<script setup lang="ts">
+const localePath = useLocalePath();
+</script>
